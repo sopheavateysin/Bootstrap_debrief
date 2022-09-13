@@ -9,13 +9,15 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    <header class="w-100 bg-dark d-flex">
+    <header class="w-100 bg-dark d-flex justify-content-between">
         <h1 class="text-white">BLOOM</h1>
-                <a class="Home" href="#">Home</a>
-                <a class="About US" href="#">About Us</a>
-                <a class="Services" href="#">Services</a>
-                <a class="Portfolio" href="#">Portfolio</a>
-                <a class="Contact US" href="#">Contact Us</a>
+        <nav class="d-flex align-items-center">
+            <a class="px-1 Home" href="#">Home</a>
+            <a class="About US px-1" href="#">About Us</a>
+            <a class="Services px-1" href="#">Services</a>
+            <a class="Portfolio px-1" href="#">Portfolio</a>
+            <a class="Contact US px-1" href="#">Contact Us</a>
+        </nav>
     </header>
     <div class="container text-center">
         <div class="row">
@@ -29,11 +31,11 @@
             <img class="lotus" src="https://th.bing.com/th/id/R.47c0f815f257700630b564f726217c44?rik=PpCEyTQO0v9z3g&pid=ImgRaw&r=0" alt="lotus bloom" width="300" height="300"/>
           </div>
           <div>
-            <h2>This is a Heading</h2>
+            <div class="py-5"><h2>This is a Heading</h2></div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
-                <div class="card h-100">
-                  <img src="..." class="card-img-top" alt="...">
+                <div class="card h-auto">
+                  <img src="..." class="card-img-top" alt="">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -43,7 +45,7 @@
                 </div>
               <div class="col">
                 <div class="card h-100">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="..." class="card-img-top" alt="">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -53,7 +55,7 @@
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="..." class="card-img-top" alt="">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -62,51 +64,55 @@
                 </div>
               </div>
             </div>
-            <div class="bg-dark text-white container text-center">
+            <div class="bg-dark text-white container text-center my-5">
               <div class="row align-items-start">
                 <div class="col">
-                  <h3>Latest Posts</h3>
+                    <h3><em>Lastest Post</em></h3>
+                  <br>
+                  <div>
+                    <h6>Subheading</h6>
+                    <p>Content for list item</p>
+                  </div>
+                  </br>
+                  
+                  <br>
+                  <div>
+                    <h6>Subheading</h6>
+                    <p>Content for list item</p>
+                  </div>
+                  </br>
+
+                  <br>
+                  <div>
+                    <h6>Subheading</h6>
+                    <p>Content for list item</p>
+                  </div>
+                  </br>
+
                 </div>
-                <div class="col">
-                  <h5>Subheading</h5>
-                  <p>Content for list item</p>
-                </div>
-                <div class="col">
-                  <h5>Subheading</h5>
-                  <p>Content for list item</p>
-                </div>
-                <div class="col">
-                <h5>Subheading</h5>
-                  <p>Content for list item</p>
-                </div>
-              </div>
-              <div class="row align-items-center">
+                
                 <div class="col">
                   <h3>About</h3>
+                  <br>
                   <p>
                     Vestibulum pulvinar tincidunt placerat. Nulla porta portititor sem, a ultrices magna feugiat quis. Man ac diam ac libero posuere lacinia eget et libero. Cras pretum odiop eget felis consequat, ut adipiscing enim suscipit.
                   </p>
+                </br>
+                  <br>
                   <p>
                     Suspendisse bendrerit sapian blandir nisi sagittis dictum. Vavamus arcu nisi, tristique ut lacus eu, aliquet varius odio.
                   </p>
+                  </br>
                 </div>
-                </div>
-              </div>
-              <div class="row align-items-end">
                 <div class="col">
                   <h3>Stay Connected</h3>
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                    <p>Instagram</p>
+                    <p>Tiktok</p>
                 </div>
-                <div class="col">
-                  <p>Facebook</p>
-                  <p>Twitter</p>
-                  <p>Instagram</p>
-                  <p>Tiktok</p>
                 </div>
-                <div class="col">
-                  One of three columns
-                </div>
-              </div>
-            </div>
+                
             
 
     <!-- JavaScript Bundle with Popper -->
